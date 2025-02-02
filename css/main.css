@@ -1,13 +1,33 @@
+body {
+	font-family: Verdana;
+	background-image: url('img/background.jpg');
+}
 
-/* WARNING-Please do not copy/paste any of this code.  You may utilize the concepts here 
-but I don't want to see a bunch of assignments with the exact layout, class names etc.  
-Type every line of code yourself!  Make the assignment your own.*/
-body{
-	/*border-box style of box-sizing makes it so both width and padding of a block element are included
-	in the total width of the element.  This is preferred going forward */
-	box-sizing: border-box;
+a {
+	text-decoration: none;
 }
-.res-section {
-	color:black;
-	/*Project 2-use this css rule to format each 'section' tag with 'res-section' class assigned */
+
+a:hover {
+	text-decoration: underline;
 }
+
+.haiku {
+	text-align: center;
+}
+
+th, td {
+	text-align: left;
+	vertical-align: top;
+}
+
+td.wake-up { background-color: #FFB3B3; } /* Light Red */
+td.morning-routine { background-color: #FFD699; } /* Light Orange */
+td.gym { background-color: #B3FFFF; } /* Light Cyan */
+td.lunch { background-color: #D9C2A3; } /* Light Brown */
+td.study { background-color: #E6E6E6; } /* Light Gray */
+td.stat2050 { background-color: #FFFF99; } /* Light Yellow */
+td.cs2600 { background-color: #B3D9FF; } /* Light Blue */
+td.cs2370 { background-color: #D9B3FF; } /* Light Purple */
+td.cs2550 { background-color: #FFB3E6; } /* Light Pink */
+td.cs3100 { background-color: #A3E6D9; } /* Light Teal */
+td.cs1410 { background-color: #B3FFB3; } /* Light Green */

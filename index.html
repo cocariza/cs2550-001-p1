@@ -18,22 +18,8 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 <html>
 <head>
 	<title>About Christopher Ocariza</title>
+	<link rel="stylesheet" href="main.css">
 </head>
-<style>
-	body {
-		font-family: Verdana;
-		background-image: url('img/background.jpg');
-	}
-	a {
-		text-decoration: none;
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-	.haiku{
-		text-align: center;
-	}
-</style>
 <body>
 
 	<main>
@@ -92,7 +78,7 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 			<table border="1" cellspacing="3" cellpadding="3">
 				<tr>
 					<th>Online</th>
-					<td colspan="5">CS 1410</td>
+					<td class="cs1410" colspan="5">CS 1410</td>
 				</tr>
 				<tr>
 					<th></th>
@@ -104,27 +90,27 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 				</tr>
 				<tr>
 					<td>8:00 AM</td>
-					<td>Wake up</td>
-					<td>Wake up</td>
-					<td>Wake up</td>
-					<td>Wake up</td>
-					<td>Wake up</td>
+					<td class="wake-up">Wake up</td>
+					<td class="wake-up">Wake up</td>
+					<td class="wake-up">Wake up</td>
+					<td class="wake-up">Wake up</td>
+					<td class="wake-up">Wake up</td>
 				</tr>
 				<tr>
 					<td>8:30 AM</td>
-					<td>Morning Routine</td>
-					<td>Morning Routine</td>
-					<td>Morning Routine</td>
-					<td>Morning Routine</td>
-					<td>Morning Routine</td>
+					<td class="morning-routine">Morning Routine</td>
+					<td class="morning-routine">Morning Routine</td>
+					<td class="morning-routine">Morning Routine</td>
+					<td class="morning-routine">Morning Routine</td>
+					<td class="morning-routine">Morning Routine</td>
 				</tr>
 				<tr>
 					<td>9:00 AM</td>
-					<td rowspan="3">Gym</td>
-					<td rowspan="3">Gym</td>
-					<td rowspan="3">Gym</td>
-					<td rowspan="3">Gym</td>
-					<td rowspan="3">Gym</td>
+					<td class="gym" rowspan="3">Gym</td>
+					<td class="gym" rowspan="3">Gym</td>
+					<td class="gym" rowspan="3">Gym</td>
+					<td class="gym" rowspan="3">Gym</td>
+					<td class="gym" rowspan="3">Gym</td>
 				</tr>
 				<tr>
 					<td>9:30 AM</td>
@@ -150,29 +136,29 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 				</tr>
 				<tr>
 					<td>11:30 AM</td>
-					<td>Lunch</td>
-					<td>Lunch</td>
-					<td>Lunch</td>
-					<td>Lunch</td>
+					<td class="lunch">Lunch</td>
+					<td class="lunch">Lunch</td>
+					<td class="lunch">Lunch</td>
+					<td class="lunch">Lunch</td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>12:00 PM</td>
-					<td rowspan="2">STAT 2050</td>
-					<td rowspan="2">STAT 2050</td>
-					<td rowspan="2">STAT 2050</td>
-					<td rowspan="2">STAT 2050</td>
-					<td>Lunch</td>
+					<td class="stat2050" rowspan="2">STAT 2050</td>
+					<td class="stat2050" rowspan="2">STAT 2050</td>
+					<td class="stat2050" rowspan="2">STAT 2050</td>
+					<td class="stat2050" rowspan="2">STAT 2050</td>
+					<td class="lunch">Lunch</td>
 				</tr>
 				<tr>
 					<td>12:30 PM</td>
-					<td rowspan="9">Study</td>
+					<td class="study" rowspan="9">Study</td>
 				</tr>
 				<tr>
 					<td>1:00 PM</td>
-					<td rowspan="2">CS 2600</td>
+					<td class="cs2600" rowspan="2">CS 2600</td>
 					<td></td>
-					<td rowspan="2">CS 2600</td>
+					<td class="cs2600" rowspan="2">CS 2600</td>
 					<td></td>
 				</tr>
 				<tr>
@@ -189,19 +175,19 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 				</tr>
 				<tr>
 					<td>2:30 PM</td>
-					<td rowspan="2">CS 2370</td>
-					<td rowspan="2">CS 2550</td>
-					<td rowspan="2">CS 2370</td>
-					<td rowspan="2">CS 2550</td>
+					<td class="cs2370" rowspan="2">CS 2370</td>
+					<td class="cs2550" rowspan="2">CS 2550</td>
+					<td class="cs2370" rowspan="2">CS 2370</td>
+					<td class="cs2550" rowspan="2">CS 2550</td>
 				</tr>
 				<tr>
 					<td>3:00 PM</td>
 				</tr>
 				<tr>
 					<td>4:00 PM</td>
-					<td rowspan="2">CS 3100</td>
+					<td class="cs3100" rowspan="2">CS 3100</td>
 					<td></td>
-					<td rowspan="2">CS 3100</td>
+					<td class="cs3100" rowspan="2">CS 3100</td>
 					<td></td>
 				</tr>
 				<tr>
@@ -218,14 +204,6 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 				</tr>
 			</table>
 		</section>
-    <!-- the 'footer' tag below is an example of a 'semantic tag'.
-    These tags are the same as a 'div' block element but give context
-    to the reader of the file.
-    Other such tags are: main, header, section, article, details, summary, figure
-    see: https://www.w3schools.com/html/html5_semantic_elements.asp-->
-		<footer>
-			<h1>Here is my footer</h1>
-		</footer>
 	</main>
 </body>
 
