@@ -10,201 +10,291 @@ by the instructor for this project. I understand that copying source
 code from any other source, providing source code to another student, 
 or leaving my code on a public web site constitutes cheating.
 I acknowledge that  If I am found in violation of this policy this may result
-in a zero grade, a permanent record on file and possibly immediate failure of the class.
- 
-Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had trouble with blah blah blah.  
- 
--->   
+in a zero grade, a permanent record on file and possibly immediate failure of 
+the class.
+
+Reflection:
+This project was a great opportunity to dive deeper into HTML and CSS. I 
+enjoyed the process of creating a structured webpage, learning about semantic 
+elements, and styling my content to look professional. The most challenging 
+part was working with the class schedule table because aligning the cells and 
+color-coding the blocks required attention to detail and debugging. However, 
+I’m proud of the final result, and I now feel much more confident in building 
+and styling web pages.
+
+Self Grade:
+--SELF GRADE--
+HEADER                      A
+PERSONAL INFO               A
+FAVE BOOKS                  A
+HAIKU                       A
+ESSAY                       A
+SCHEDULE                    A
+
+--EXTRA ITEMS COMPLETED--
+REPEATING BKG IMG (2pts)            YES
+CHANGE FONT (2pts)                  YES
+RT ALIGN PHOTO (2pts)               YES
+INDENT/CENTER HAIKU (2pts)          YES
+TABLE-TEXT ALIGN (2pts)             YES
+
+Netlify URL:
+https://your-netlify-site-name.netlify.app
+
+Additional Comments:
+I followed the assignment instructions carefully and verified that all 
+sections, styles, and extra items were implemented correctly. I thoroughly 
+enjoyed this project and look forward to learning more advanced web development
+ concepts in future assignments.
+-->
+
 <html>
-<head>
-	<title>About Christopher Ocariza</title>
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <title>About Christopher Ocariza</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Christopher Ocariza</h1>
+      </header>
+      <hr />
+      <img
+        src="img/me.jpg"
+        alt="Picture of Me(Christopher Ocariza)"
+        width="500"
+        align="right"
+      />
 
-	<main>
-		<header>
-			<h1>Christopher Ocariza</h1>
-		</header>
-		<hr>
-		<img src="img/me.jpg" alt="Picture of Me(Christopher Ocariza)" width="500" align="right">
+      <section class="personal-info">
+        <h2>Personal Info:</h2>
+        <ul>
+          <li><strong>Major:</strong> Computer Science</li>
+          <li><strong>High School:</strong> Buena High School</li>
+          <li><strong>Year:</strong> Junior</li>
+          <li><strong>Favorite Ice Cream:</strong> Cookies and Cream</li>
+        </ul>
+      </section>
 
-		<section class='personal-info'>
-			<h2>Personal Info:</h2>
-			<ul>
-				<li><strong>Major:</strong> Computer Science</li>
-				<li><strong>High School:</strong> Buena High School</li>
-				<li><strong>Year:</strong> Junior</li>
-				<li><strong>Favorite Ice Cream:</strong> Cookies and Cream</li>
-			</ul>
-		</section>
+      <section class="five-favorite-books">
+        <h2>My Five Favorite Books</h2>
+        <ol>
+          <li>
+            <em>The Daily Stoic</em>,
+            <a href="https://dailystoic.com/" target="_blank">Ryan Holiday</a>
+          </li>
+          <li>
+            <em>Can't Hurt Me: Master Your Mind and Defy the Odds</em>,
+            <a href="https://davidgoggins.com/book/" target="_blank"
+              >David Goggins</a
+            >
+          </li>
+          <li>
+            <em>One Piece</em>,
+            <a href="https://one-piece.com/" target="_blank">Eiichiro Oda</a>
+          </li>
+          <li>
+            <em>The Complete Musashi: The Book of Five Rings and Other Works</em
+            >,
+            <a
+              href="https://www.tuttlepublishing.com/japan/the-complete-musashi-the-book-of-five-rings-and-other-works"
+              target="_blank"
+              >Alex Bennett, Miyamoto Musashi</a
+            >
+          </li>
+          <li>
+            <em>Solo Leveling</em>,
+            <a
+              href="https://www.tappytoon.com/en/book/solo-leveling-official"
+              target="_blank"
+              >Chugong</a
+            >
+          </li>
+        </ol>
+      </section>
 
-		<section class='five-favorite-books'>
-			<h2>My Five Favorite Books</h2>
-			<ol>
-				<li><em>The Daily Stoic</em>, <a href="https://dailystoic.com/" target="_blank">Ryan Holiday</a></li>
-				<li><em>Can't Hurt Me: Master Your Mind and Defy the Odds</em>, <a href="https://davidgoggins.com/book/" target="_blank">David Goggins</a></li>
-				<li><em>One Piece</em>, <a href="https://one-piece.com/" target="_blank">Eiichiro Oda</a></li>
-				<li><em>The Complete Musashi: The Book of Five Rings and Other Works</em>, <a href="https://www.tuttlepublishing.com/japan/the-complete-musashi-the-book-of-five-rings-and-other-works" target="_blank">Alex Bennett, Miyamoto Musashi</a></li>
-				<li><em>Solo Leveling</em>, <a href="https://www.tappytoon.com/en/book/solo-leveling-official" target="_blank">Chugong</a></li>
-			</ol>
-		</section>
+      <section class="haiku-section">
+        <h2>Coding</h2>
+        <p>
+          This haiku captures the coder's journey from excitement to confidence,
+          only to be met with the inevitable frustration of an unexpected error.
+          It reflects the highs and lows of programming, where progress feels
+          exhilarating until a single mistake sends you back to debugging.
+        </p>
+        <p class="haiku">
+          This is getting fun<br />
+          I am feeling confident<br />
+          Shoot, there's an error.
+        </p>
+      </section>
 
-		<section class='haiku-section'>
-			<h2>Coding</h2>
-			<p>This haiku captures the coder's journey from excitement to confidence, only to be met with the inevitable frustration of an unexpected error. It reflects the highs and lows of programming, where progress feels exhilarating until a single mistake sends you back to debugging.</p>
-			<p class="haiku">
-				This is getting fun<br>
-				I am feeling confident<br>
-				Shoot, there's an error.
-			</p>
-		</section>
+      <section class="brief-essay">
+        <h2>My Personal Interests</h2>
+        <p>
+          I have always been fascinated by coding and software development. From
+          an early age, I was always the one in my family who was tech-savvy. As
+          I progressed in my studies, I found a deep interest in computer
+          science, particularly in areas like web development, data security,
+          and automotive software applications. The ability to solve problems
+          creatively and build functional, efficient solutions excites me, and I
+          hope to apply my skills in industries that push the boundaries of
+          technology.
+        </p>
+        <p>
+          Outside of technology, I enjoy hiking and exploring new places with my
+          fiancé and dog. There's something incredibly refreshing about being in
+          nature, especially in a world of revolutionzing tech. Hiking allows me
+          to disconnect from screens, clear my mind, and challenge myself
+          physically. Some of my favorite destinations include national parks,
+          remote backcountry trails, and scenic coastal cliffs. I also
+          appreciate the opportunity to travel and experience different
+          cultures, cuisines, and landscapes.
+        </p>
+        <p>
+          Another interest of mine is motorsports, especially Formula 1. The
+          combination of precision engineering, strategy, and high-speed
+          competition makes it one of the most exciting sports to watch. I
+          admire the level of detail that goes into building race cars,
+          optimizing aerodynamics, and fine-tuning performance. My passion for
+          cars extends beyond just watching races—I enjoy learning about vehicle
+          dynamics, performance modifications, and automotive technology. One of
+          my long-term goals is to integrate my computer science skills into the
+          automotive or motorsport industry, whether through performance
+          analytics, simulation software, or real-time telemetry systems.
+        </p>
+      </section>
 
-		<section class='brief-essay'>
-			<h2>My Personal Interests</h2>
-			<p>
-				I have always been fascinated by coding and software development. From an early age, I was always the one in my family who was tech-savvy. As I progressed in my studies, I found a deep interest in computer science, particularly in areas like web development, data security, and automotive software applications. The ability to solve problems creatively and build functional, efficient solutions excites me, and I hope to apply my skills in industries that push the boundaries of technology.
-			</p>
-			<p>
-				Outside of technology, I enjoy hiking and exploring new places with my fiancé and dog. There's something incredibly refreshing about being in nature, especially in a world of revolutionzing tech. Hiking allows me to disconnect from screens, clear my mind, and challenge myself physically. Some of my favorite destinations include national parks, remote backcountry trails, and scenic coastal cliffs. I also appreciate the opportunity to travel and experience different cultures, cuisines, and landscapes.
-			</p>
-			<p>
-				Another interest of mine is motorsports, especially Formula 1. The combination of precision engineering, strategy, and high-speed competition makes it one of the most exciting sports to watch. I admire the level of detail that goes into building race cars, optimizing aerodynamics, and fine-tuning performance. My passion for cars extends beyond just watching races—I enjoy learning about vehicle dynamics, performance modifications, and automotive technology. One of my long-term goals is to integrate my computer science skills into the automotive or motorsport industry, whether through performance analytics, simulation software, or real-time telemetry systems.
-			</p>
-		</section>
-
-		<section class='class-schedule'>
-			<h2>Class Schedule</h2>
-			<table border="1" cellspacing="3" cellpadding="3">
-				<tr>
-					<th>Online</th>
-					<td class="cs1410" colspan="5">CS 1410</td>
-				</tr>
-				<tr>
-					<th></th>
-					<th>Monday</th>
-					<th>Tuesday</th>
-					<th>Wednesday</th>
-					<th>Thursday</th>
-					<th>Friday</th>
-				</tr>
-				<tr>
-					<td>8:00 AM</td>
-					<td class="wake-up">Wake up</td>
-					<td class="wake-up">Wake up</td>
-					<td class="wake-up">Wake up</td>
-					<td class="wake-up">Wake up</td>
-					<td class="wake-up">Wake up</td>
-				</tr>
-				<tr>
-					<td>8:30 AM</td>
-					<td class="morning-routine">Morning Routine</td>
-					<td class="morning-routine">Morning Routine</td>
-					<td class="morning-routine">Morning Routine</td>
-					<td class="morning-routine">Morning Routine</td>
-					<td class="morning-routine">Morning Routine</td>
-				</tr>
-				<tr>
-					<td>9:00 AM</td>
-					<td class="gym" rowspan="3">Gym</td>
-					<td class="gym" rowspan="3">Gym</td>
-					<td class="gym" rowspan="3">Gym</td>
-					<td class="gym" rowspan="3">Gym</td>
-					<td class="gym" rowspan="3">Gym</td>
-				</tr>
-				<tr>
-					<td>9:30 AM</td>
-				</tr>
-				<tr>
-					<td>10:00 AM</td>
-				</tr>
-				<tr>
-					<td>10:30 AM</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>11:00 AM</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>11:30 AM</td>
-					<td class="lunch">Lunch</td>
-					<td class="lunch">Lunch</td>
-					<td class="lunch">Lunch</td>
-					<td class="lunch">Lunch</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>12:00 PM</td>
-					<td class="stat2050" rowspan="2">STAT 2050</td>
-					<td class="stat2050" rowspan="2">STAT 2050</td>
-					<td class="stat2050" rowspan="2">STAT 2050</td>
-					<td class="stat2050" rowspan="2">STAT 2050</td>
-					<td class="lunch">Lunch</td>
-				</tr>
-				<tr>
-					<td>12:30 PM</td>
-					<td class="study" rowspan="9">Study</td>
-				</tr>
-				<tr>
-					<td>1:00 PM</td>
-					<td class="cs2600" rowspan="2">CS 2600</td>
-					<td></td>
-					<td class="cs2600" rowspan="2">CS 2600</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>1:30 PM</td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>2:00 PM</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>2:30 PM</td>
-					<td class="cs2370" rowspan="2">CS 2370</td>
-					<td class="cs2550" rowspan="2">CS 2550</td>
-					<td class="cs2370" rowspan="2">CS 2370</td>
-					<td class="cs2550" rowspan="2">CS 2550</td>
-				</tr>
-				<tr>
-					<td>3:00 PM</td>
-				</tr>
-				<tr>
-					<td>4:00 PM</td>
-					<td class="cs3100" rowspan="2">CS 3100</td>
-					<td></td>
-					<td class="cs3100" rowspan="2">CS 3100</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>4:30 PM</td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>5:00 PM</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
-		</section>
-	</main>
-</body>
-
+      <section class="class-schedule">
+        <h2>Class Schedule</h2>
+        <table border="1" cellspacing="3" cellpadding="3">
+          <tr>
+            <th>Online</th>
+            <td class="cs1410" colspan="5">CS 1410</td>
+          </tr>
+          <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td>8:00 AM</td>
+            <td class="wake-up">Wake up</td>
+            <td class="wake-up">Wake up</td>
+            <td class="wake-up">Wake up</td>
+            <td class="wake-up">Wake up</td>
+            <td class="wake-up">Wake up</td>
+          </tr>
+          <tr>
+            <td>8:30 AM</td>
+            <td class="morning-routine">Morning Routine</td>
+            <td class="morning-routine">Morning Routine</td>
+            <td class="morning-routine">Morning Routine</td>
+            <td class="morning-routine">Morning Routine</td>
+            <td class="morning-routine">Morning Routine</td>
+          </tr>
+          <tr>
+            <td>9:00 AM</td>
+            <td class="gym" rowspan="3">Gym</td>
+            <td class="gym" rowspan="3">Gym</td>
+            <td class="gym" rowspan="3">Gym</td>
+            <td class="gym" rowspan="3">Gym</td>
+            <td class="gym" rowspan="3">Gym</td>
+          </tr>
+          <tr>
+            <td>9:30 AM</td>
+          </tr>
+          <tr>
+            <td>10:00 AM</td>
+          </tr>
+          <tr>
+            <td>10:30 AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>11:00 AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>11:30 AM</td>
+            <td class="lunch">Lunch</td>
+            <td class="lunch">Lunch</td>
+            <td class="lunch">Lunch</td>
+            <td class="lunch">Lunch</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>12:00 PM</td>
+            <td class="stat2050" rowspan="2">STAT 2050</td>
+            <td class="stat2050" rowspan="2">STAT 2050</td>
+            <td class="stat2050" rowspan="2">STAT 2050</td>
+            <td class="stat2050" rowspan="2">STAT 2050</td>
+            <td class="lunch">Lunch</td>
+          </tr>
+          <tr>
+            <td>12:30 PM</td>
+            <td class="study" rowspan="9">Study</td>
+          </tr>
+          <tr>
+            <td>1:00 PM</td>
+            <td class="cs2600" rowspan="2">CS 2600</td>
+            <td></td>
+            <td class="cs2600" rowspan="2">CS 2600</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1:30 PM</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2:30 PM</td>
+            <td class="cs2370" rowspan="2">CS 2370</td>
+            <td class="cs2550" rowspan="2">CS 2550</td>
+            <td class="cs2370" rowspan="2">CS 2370</td>
+            <td class="cs2550" rowspan="2">CS 2550</td>
+          </tr>
+          <tr>
+            <td>3:00 PM</td>
+          </tr>
+          <tr>
+            <td>4:00 PM</td>
+            <td class="cs3100" rowspan="2">CS 3100</td>
+            <td></td>
+            <td class="cs3100" rowspan="2">CS 3100</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4:30 PM</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5:00 PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
 </html>
