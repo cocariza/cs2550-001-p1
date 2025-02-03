@@ -25,6 +25,30 @@ h1 {
     border-radius: 10px;
 }
 
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    
+    background: linear-gradient(90deg, #1abc9c, #3498db);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3, h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18pt;
+    color: #333;
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+    border-bottom: 2px solid #3498db;
+}
+
 .portrait {
 	width: 200px;
 	height: auto;
