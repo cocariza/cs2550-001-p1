@@ -136,8 +136,7 @@ table {
 	padding: 10px; /* Add padding to cells for readability */
 	border: 1px solid #ddd; /* Light border for each cell */
 	text-align: center; /* Center text horizontally */
-	vertical-align: top; /* Align text to the top of cells */
-	width: 16%;
+	vertical-align: middle;
   }
 
   .schedule-table tr:nth-child(even) {
