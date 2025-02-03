@@ -113,42 +113,50 @@ table {
   width: 100%;
 }
 
+.schedule-table {
+	width: 100%; /* Full-width table */
+	border-collapse: collapse; /* Merge cell borders */
+	table-layout: fixed; /* Equal column widths */
+	background-color: #f9f9f9; /* Light background */
+	border: 2px solid #ccc; /* Outer border for the table */
+	margin: 20px 0; /* Space above and below the table */
+  }  
+
+  .schedule-table th {
+	background-color: #1abc9c; /* Teal background for headers */
+	color: white; /* White text */
+	font-size: 16pt; /* Larger font size for headers */
+	padding: 10px; /* Space inside each cell */
+	border: 2px solid #0e8b72; /* Slightly darker border for headers */
+	text-align: center; /* Center-align the text */
+	width: 16%;
+  }  
+
+  .schedule-table td {
+	padding: 10px; /* Add padding to cells for readability */
+	border: 1px solid #ddd; /* Light border for each cell */
+	text-align: center; /* Center text horizontally */
+	vertical-align: top; /* Align text to the top of cells */
+	width: 16%;
+  }
+
+  .schedule-table tr:nth-child(even) {
+	background-color: #f2f2f2; /* Light gray for alternate rows */
+  }  
+  
 th,
 td {
   text-align: left;
   vertical-align: top;
 }
 
-td.wake-up {
-  background-color: #ffb3b3;
-} /* Light Red */
-td.morning-routine {
-  background-color: #ffd699;
-} /* Light Orange */
-td.gym {
-  background-color: #b3ffff;
-} /* Light Cyan */
-td.lunch {
-  background-color: #d9c2a3;
-} /* Light Brown */
-td.study {
-  background-color: #e6e6e6;
-} /* Light Gray */
-td.stat2050 {
-  background-color: #ffff99;
-} /* Light Yellow */
-td.cs2600 {
-  background-color: #b3d9ff;
-} /* Light Blue */
-td.cs2370 {
-  background-color: #d9b3ff;
-} /* Light Purple */
-td.cs2550 {
-  background-color: #ffb3e6;
-} /* Light Pink */
-td.cs3100 {
-  background-color: #a3e6d9;
-} /* Light Teal */
-td.cs1410 {
-  background-color: #b3ffb3;
-} /* Light Green */
+td.wake-up { background-color: #ffb3b3; border: 1px solid #ff8a8a; }
+td.morning-routine { background-color: #ffd699; border: 1px solid #ffcc66; }
+td.gym { background-color: #b3ffff; border: 1px solid #80e6e6; }
+td.lunch { background-color: #d9c2a3; border: 1px solid #b29774; }
+td.stat2050 { background-color: #ffff99; border: 1px solid #e6e600; }
+td.cs2600 { background-color: #b3d9ff; border: 1px solid #80b3e6; }
+td.cs2370 { background-color: #d9b3ff; border: 1px solid #b380e6; }
+td.cs2550 { background-color: #ffb3e6; border: 1px solid #e680b3; }
+td.cs3100 { background-color: #a3e6d9; border: 1px solid #80ccb3; }
+td.cs1410 { background-color: #b3ffb3; border: 1px solid #80cc80; }
