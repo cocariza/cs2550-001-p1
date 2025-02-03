@@ -1,171 +1,172 @@
 body {
-  font-family: Verdana, sans-serif;
-  font-size: 12pt;
-  background-image: url("../img/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-}
-
-.content-wrapper {
-    max-width: 80%; /* Adjust content width */
-    margin: 20px auto; /* Center the div horizontally */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Floating effect */
-}
-
-h1 {
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 30pt;
-	letter-spacing: 5px;
-	font-weight: normal;
-	text-decoration-line: underline;
-	text-decoration-thickness: 2px;
-	text-align: center;
-	text-transform: uppercase;
-	background: linear-gradient(90deg, #1abc9c, #3498db);
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-h2 {
-    font-family: 'Arial', sans-serif;
-    font-size: 20pt;
-    font-weight: bold;
-    color: #333;
-    
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-
-    border-bottom: 3px solid #1abc9c;
-    padding-bottom: 5px;
-    text-align: left;
-}
-
-h3, h4 {
-    font-family: 'Arial', sans-serif;
-    font-size: 18pt;
-    color: #333;
-    margin-top: 1.2em;
-    margin-bottom: 0.4em;
-    border-bottom: 2px solid #3498db;
-	padding-bottom: 5px;
-}
-
-.portrait {
-	width: 300px;
-	height: auto;
-	float: right;
-	margin: 10px auto;
-	border: 5px solid white;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-	display: block;
-}
-
-.centered {
-	text-align: center;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.modal-content {
-    display: block;
-    margin: auto;
-    max-width: 80%;
-    max-height: 80%;
-}
-
-.close {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-}
-
-p {
-	margin-bottom: 12px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.haiku {
-  text-align: center;
-}
-
-table {
-  border-collapse: collapse;
-  table-layout: fixed;
-  width: 100%;
-}
-
-.schedule-table {
-	width: 100%; /* Full-width table */
-	border-collapse: collapse; /* Merge cell borders */
-	table-layout: fixed; /* Equal column widths */
-	background-color: #f9f9f9; /* Light background */
-	border: 2px solid #ccc; /* Outer border for the table */
-	margin: 20px 0; /* Space above and below the table */
-  }  
-
-  .schedule-table th {
-	background-color: #1abc9c; /* Teal background for headers */
-	color: white; /* White text */
-	font-size: 16pt; /* Larger font size for headers */
-	padding: 10px; /* Space inside each cell */
-	border: 2px solid #0e8b72; /* Slightly darker border for headers */
-	text-align: center; /* Center-align the text */
-	width: 16%;
-  }  
-
-  .schedule-table td {
-	padding: 10px; /* Add padding to cells for readability */
-	border: 1px solid #ddd; /* Light border for each cell */
-	text-align: center; /* Center text horizontally */
-	vertical-align: middle;
+	font-family: Verdana, sans-serif;
+	font-size: 12pt;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 0;
   }
-
-  .schedule-table tr:nth-child(even) {
-	background-color: #f2f2f2; /* Light gray for alternate rows */
-  }  
   
-th,
-td {
-  text-align: left;
-  vertical-align: top;
-}
-
-td.wake-up { background-color: #ffb3b3; border: 1px solid #ff8a8a; }
-td.morning-routine { background-color: #ffd699; border: 1px solid #ffcc66; }
-td.gym { background-color: #b3ffff; border: 1px solid #80e6e6; }
-td.lunch { background-color: #d9c2a3; border: 1px solid #b29774; }
-td.stat2050 { background-color: #ffff99; border: 1px solid #e6e600; }
-td.cs2600 { background-color: #b3d9ff; border: 1px solid #80b3e6; }
-td.cs2370 { background-color: #d9b3ff; border: 1px solid #b380e6; }
-td.cs2550 { background-color: #ffb3e6; border: 1px solid #e680b3; }
-td.cs3100 { background-color: #a3e6d9; border: 1px solid #80ccb3; }
-td.cs1410 { background-color: #b3ffb3; border: 1px solid #80cc80; }
+  .content-wrapper {
+	  max-width: 80%; /* Adjust content width */
+	  margin: 20px auto; /* Center the div horizontally */
+	  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+	  padding: 20px;
+	  border-radius: 10px;
+	  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Floating effect */
+  }
+  
+  h1 {
+	  font-family: 'Courier New', Courier, monospace;
+	  font-size: 30pt;
+	  letter-spacing: 5px;
+	  font-weight: normal;
+	  text-decoration-line: underline;
+	  text-decoration-thickness: 2px;
+	  text-align: center;
+	  text-transform: uppercase;
+	  background: linear-gradient(90deg, #1abc9c, #3498db);
+	  color: white;
+	  padding: 10px;
+	  border-radius: 10px;
+  }
+  
+  h2 {
+	  font-family: 'Arial', sans-serif;
+	  font-size: 20pt;
+	  font-weight: bold;
+	  color: #333;
+	  
+	  margin-top: 1.5em;
+	  margin-bottom: 0.5em;
+  
+	  border-bottom: 3px solid #1abc9c;
+	  padding-bottom: 5px;
+	  text-align: left;
+  }
+  
+  h3, h4 {
+	  font-family: 'Arial', sans-serif;
+	  font-size: 18pt;
+	  color: #333;
+	  margin-top: 1.2em;
+	  margin-bottom: 0.4em;
+	  border-bottom: 2px solid #3498db;
+	  padding-bottom: 5px;
+  }
+  
+  .portrait {
+	  width: 300px;
+	  height: auto;
+	  float: right;
+	  margin: 10px auto;
+	  border: 5px solid white;
+	  border-radius: 10px;
+	  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	  display: block;
+  }
+  
+  .centered {
+	  text-align: center;
+  }
+  
+  .modal {
+	  display: none;
+	  position: fixed;
+	  z-index: 1;
+	  left: 0;
+	  top: 0;
+	  width: 100%;
+	  height: 100%;
+	  background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-content {
+	  display: block;
+	  margin: auto;
+	  max-width: 80%;
+	  max-height: 80%;
+  }
+  
+  .close {
+	  position: absolute;
+	  top: 10px;
+	  right: 25px;
+	  color: white;
+	  font-size: 35px;
+	  cursor: pointer;
+  }
+  
+  p {
+	  margin-bottom: 12px;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  .haiku {
+	text-align: center;
+  }
+  
+  table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+  }
+  
+  .schedule-table {
+	  width: 100%; /* Full-width table */
+	  border-collapse: collapse; /* Merge cell borders */
+	  table-layout: fixed; /* Equal column widths */
+	  background-color: #f9f9f9; /* Light background */
+	  border: 2px solid #ccc; /* Outer border for the table */
+	  margin: 20px 0; /* Space above and below the table */
+	}  
+  
+	.schedule-table th {
+	  background-color: #1abc9c; /* Teal background for headers */
+	  color: white; /* White text */
+	  font-size: 16pt; /* Larger font size for headers */
+	  padding: 10px; /* Space inside each cell */
+	  border: 2px solid #0e8b72; /* Slightly darker border for headers */
+	  text-align: center; /* Center-align the text */
+	  width: 16%;
+	}  
+  
+	.schedule-table td {
+	  padding: 10px; /* Add padding to cells for readability */
+	  border: 1px solid #ddd; /* Light border for each cell */
+	  text-align: center; /* Center text horizontally */
+	  vertical-align: middle;
+	}
+  
+	.schedule-table tr:nth-child(even) {
+	  background-color: #f2f2f2; /* Light gray for alternate rows */
+	}  
+	
+  th,
+  td {
+	text-align: left;
+	vertical-align: top;
+  }
+  
+  td.wake-up { background-color: #ffb3b3; border: 1px solid #ff8a8a; }
+  td.morning-routine { background-color: #ffd699; border: 1px solid #ffcc66; }
+  td.gym { background-color: #b3ffff; border: 1px solid #80e6e6; }
+  td.lunch { background-color: #d9c2a3; border: 1px solid #b29774; }
+  td.stat2050 { background-color: #ffff99; border: 1px solid #e6e600; }
+  td.cs2600 { background-color: #b3d9ff; border: 1px solid #80b3e6; }
+  td.cs2370 { background-color: #d9b3ff; border: 1px solid #b380e6; }
+  td.cs2550 { background-color: #ffb3e6; border: 1px solid #e680b3; }
+  td.cs3100 { background-color: #a3e6d9; border: 1px solid #80ccb3; }
+  td.cs1410 { background-color: #b3ffb3; border: 1px solid #80cc80; }
+  
