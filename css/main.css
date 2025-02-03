@@ -50,13 +50,18 @@ h3, h4 {
 }
 
 .portrait {
-	width: 200px;
+	width: 300px;
 	height: auto;
 	float: right;
-	margin: 10px;
+	margin: 10px auto;
 	border: 5px solid white;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	display: block;
+}
+
+.centered {
+	text-align: center;
 }
 
 .modal {
